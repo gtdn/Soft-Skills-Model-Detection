@@ -33,11 +33,11 @@ prediction[0]
   {'management': 'B-leadership'}]]
 ```
 
-If you want to rebuild the model, you can execute all cells in jupyter notebook 
+- If you want to rebuild the model, you can execute all cells in jupyter notebook 
 
 
 
-If you want to test directly the model with the web App, go to the folder "/App" and execute 
+- If you want to test directly the model with the web App, go to the folder "/App" and execute 
 `flask --app serveur.py --debug run`
 
 ![Home](img/Test_1.png)
@@ -47,6 +47,6 @@ If you want to test directly the model with the web App, go to the folder "/App"
 
 
 # Contribute
-Chief of project : Boudjani Nadira
-Data Scientist : Jauseau Bapsite 
-Annoteurs : Boudjani Nadira, Jauseau Bapstite , Dandieu Jocelyne, Sannier Gilles
+- Chief of project : Boudjani Nadira
+- Data Scientist : Jauseau Bapsite 
+- Annoteurs : Boudjani Nadira, Jauseau Bapstite , Dandieu Jocelyne, Sannier Gilles
