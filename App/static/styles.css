@@ -1,0 +1,58 @@
+.bg-custom-orange {
+    background-color: #D35400; /* Orange */
+    color: white; /* Text color */
+    padding: 3px 5px; /* Add some padding for better appearance */
+    text-align: center;
+}
+
+.bg-custom-purple {
+    background-color: #9B59B6; /* Purple */
+    color: white; /* Text color */
+    padding: 3px 5px; /* Add some padding for better appearance */
+    text-align: center;
+}
+
+.bg-custom-green {
+    background-color: #2ECC71 ; /* Green */
+    color: white; /* Text color */
+    padding: 3px 5px; /* Add some padding for better appearance */
+    text-align: center;
+}
+
+.bg-custom-blue {
+    background-color: #3498DB ; /* Green */
+    color: white; /* Text color */
+    padding: 3px 5px; /* Add some padding for better appearance */
+    text-align: center;
+}
+
+.bg-custom-green {
+    background-color: #27AE60 ; /* Green */
+    color: white; /* Text color */
+    padding: 3px 5px; /* Add some padding for better appearance */
+    text-align: center;
+}
+
+.bg-custom-red {
+    background-color: #EC7063; /* Green */
+    color: white; /* Text color */
+    padding: 3px 5px; /* Add some padding for better appearance */
+    text-align: center;
+}
+
+.bg-custom-yellow {
+    background-color: #F1C40F ; /* Green */
+    color: white; /* Text color */
+    padding: 3px 5px; /* Add some padding for better appearance */
+    text-align: center;
+}
+
+.border-success {
+    padding: 20px;
+}
+
+p{
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/styles.css">
+   
+</head>
+<body>
+    <div class="container">
+      <div class="row align-items-center justify-content-center mt-5">
+        <div class="col bg-custom-blue">Communication</div>
+        <div class="col bg-custom-orange">Pensee</div>
+        <div class="col bg-custom-purple">Ethique Pro</div>
+        <div class="col bg-custom-green">Attitude Constructive</div>
+        <div class="col bg-custom-yellow">Esprit d'équipe</div>
+        <div class="col bg-custom-red">LeaderShip</div>
+      </div>
+
+      <div class="row align-items-center  justify-content-center mt-5">
+          <div class="col-md-12">
+              <form class="grid" action="/result" method="POST">
+                <div class="form-group">
+                  <label for="inputField"><h2>Entrez votre texte</h2></label>
+                  <textarea class="form-control" id="inputField" name="inputField" rows="3"></textarea>
+                </div>
+                <div class="text-center">
+                  <input class="btn btn-primary" type="Submit">
+                </div>               
+              </form>
+          </div>
+      </div>        
+
+      <h3>Résultat phrase annotée</h3>
+      <div class="row align-items-center justify-content-center mt-5">
+          {% if name %}
+          <div class="col"> 
+              {{name|safe}}
+          </div>          
+          {% endif %}
+      </div>
+
+    <!-- Include Bootstrap JS and jQuery (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
